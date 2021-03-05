@@ -1,7 +1,9 @@
 # db
 
 ## Database
-**Database** is a convinient way to structure and store information efficiently (e.g. in tables). A **relational database** uses keys to link pieces of data from one table to another, whereas each **key** represent some relation (e.g. a unique identifier of an owner). Three types of relationship are possible between two tables :
+**Database** is a convinient way to structure and store information efficiently (e.g. in tables). A **relational database** uses keys to link pieces of data from one table to another, whereas each **key** represents some relation (e.g. a unique identifier of an owner). **SQL (structured query language)** is a query language used to access and manage data in the relational database. There are also **NoSQL (not only SQL)** databases, which can exploit storage resources and structural integrity in exchange for better performance.
+
+Three types of relationship are possible between two tables in a simple relational database:
 - **one-to-one**,
 - **one-to-many**,
 - **many-to-many**.
